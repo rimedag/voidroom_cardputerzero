@@ -1,0 +1,22 @@
+Origin: NoirSonance
+Label: Void Room
+Suite: stable
+Codename: stable
+Date: Fri, 05 Jun 2026 08:17:18 GMT
+Architectures: all amd64 arm64
+Components: main
+Description: Void Room public APT repository
+MD5Sum:
+ fd662417bd3fb331263d5a02eb3ee0d3              543 main/binary-all/Packages
+ 922ca329fbf171be9d0801befa59d457              387 main/binary-all/Packages.gz
+ fd662417bd3fb331263d5a02eb3ee0d3              543 main/binary-amd64/Packages
+ 922ca329fbf171be9d0801befa59d457              387 main/binary-amd64/Packages.gz
+ fd662417bd3fb331263d5a02eb3ee0d3              543 main/binary-arm64/Packages
+ 922ca329fbf171be9d0801befa59d457              387 main/binary-arm64/Packages.gz
+SHA256:
+ e5950da62db5f48f4d272390106f97a3fcc5e1abe6653c29af102d572f3556cb              543 main/binary-all/Packages
+ d51b1305ab295efd1417b6c913c2e8c6634e3bd871bddb86570a53bc3650f571              387 main/binary-all/Packages.gz
+ e5950da62db5f48f4d272390106f97a3fcc5e1abe6653c29af102d572f3556cb              543 main/binary-amd64/Packages
+ d51b1305ab295efd1417b6c913c2e8c6634e3bd871bddb86570a53bc3650f571              387 main/binary-amd64/Packages.gz
+ e5950da62db5f48f4d272390106f97a3fcc5e1abe6653c29af102d572f3556cb              543 main/binary-arm64/Packages
+ d51b1305ab295efd1417b6c913c2e8c6634e3bd871bddb86570a53bc3650f571              387 main/binary-arm64/Packages.gz
