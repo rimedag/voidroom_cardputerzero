@@ -7,15 +7,18 @@ development source lives in the private/local NoirSonance Gitea repository.
 
 ## Install
 
-```bash
-curl -LO https://github.com/rimedag/voidroom_cardputerzero/releases/latest/download/void-room_0.1.0-noirsonance1_all.deb
-sudo apt install ./void-room_0.1.0-noirsonance1_all.deb
-```
-
-Or use the install helper:
+Use the install helper:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/rimedag/voidroom_cardputerzero/main/install.sh | sh
+```
+
+Or download the package for your machine:
+
+```bash
+ARCH="$(dpkg --print-architecture)"
+curl -LO "https://raw.githubusercontent.com/rimedag/voidroom_cardputerzero/main/pool/main/v/void-room/void-room_0.1.0-noirsonance1_${ARCH}.deb"
+sudo apt install "./void-room_0.1.0-noirsonance1_${ARCH}.deb"
 ```
 
 ## Launch
@@ -38,8 +41,11 @@ Automatic mode:
 void-room
 ```
 
-## Package
+## Packages
 
-The Debian package is pure Python and marked `Architecture: all`, so the same
-download can install on Raspberry Pi OS, Debian, Ubuntu, and other compatible
-Linux systems.
+Public downloads are architecture-specific binary builds:
+
+- `amd64` for regular Linux desktops and laptops.
+- `arm64` for Cardputer Zero and 64-bit Raspberry Pi OS.
+
+The public `.deb` files do not contain the app's readable Python source files.

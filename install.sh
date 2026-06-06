@@ -1,9 +1,20 @@
 #!/bin/sh
 set -eu
 
-asset="void-room_0.1.0-noirsonance1_all.deb"
+arch="${VOID_ROOM_ARCH:-$(dpkg --print-architecture)}"
+case "$arch" in
+    amd64|arm64) ;;
+    *)
+        echo "Unsupported architecture: $arch" >&2
+        echo "Void Room public binary packages are available for amd64 and arm64." >&2
+        exit 1
+        ;;
+esac
+
+asset="void-room_0.1.0-noirsonance1_${arch}.deb"
 repo="${VOID_ROOM_REPO:-rimedag/voidroom_cardputerzero}"
-url="https://github.com/${repo}/releases/latest/download/${asset}"
+base_url="${VOID_ROOM_BASE_URL:-https://raw.githubusercontent.com/${repo}/main/pool/main/v/void-room}"
+url="${base_url}/${asset}"
 tmp_dir="$(mktemp -d)"
 
 cleanup() {
