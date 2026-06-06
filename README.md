@@ -8,14 +8,14 @@ development source lives in the private/local NoirSonance Gitea repository.
 ## Install
 
 ```bash
-curl -LO https://github.com/rimedag/Void-Room/releases/latest/download/void-room_0.1.0-noirsonance1_all.deb
+curl -LO https://github.com/rimedag/voidroom_cardputerzero/releases/latest/download/void-room_0.1.0-noirsonance1_all.deb
 sudo apt install ./void-room_0.1.0-noirsonance1_all.deb
 ```
 
 Or use the install helper:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/rimedag/Void-Room/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/rimedag/voidroom_cardputerzero/main/install.sh | sh
 ```
 
 ## Launch

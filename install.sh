@@ -2,7 +2,7 @@
 set -eu
 
 asset="void-room_0.1.0-noirsonance1_all.deb"
-repo="${VOID_ROOM_REPO:-rimedag/Void-Room}"
+repo="${VOID_ROOM_REPO:-rimedag/voidroom_cardputerzero}"
 url="https://github.com/${repo}/releases/latest/download/${asset}"
 tmp_dir="$(mktemp -d)"
 
