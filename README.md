@@ -5,6 +5,11 @@ Offline writing room for NoirSonance Cardputer Zero and regular Linux desktops.
 This public repository contains install instructions and release downloads. The
 development source lives in the private/local NoirSonance Gitea repository.
 
+## Screenshots
+
+![Void Room setup](assets/screenshots/setup.png)
+![Void Room writing](assets/screenshots/writing.png)
+
 ## Install
 
 Use the install helper:
