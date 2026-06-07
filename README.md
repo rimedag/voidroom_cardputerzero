@@ -2,8 +2,14 @@
 
 Offline writing room for NoirSonance Cardputer Zero and regular Linux desktops.
 
-This public repository contains install instructions and release downloads. The
-development source lives in the private/local NoirSonance Gitea repository.
+Void Room is a distraction-free writing space for raw thought. Choose a timer, optionally lock yourself out of backspace or early exit, and write without turning the session into editing.
+
+Features:
+
+- Timed writing rooms for focused drafting.
+- Optional no-exit and no-backspace modes.
+- Local archive for saved writing sessions.
+- Cardputer Zero and regular Linux desktop launch modes.
 
 ## Screenshots
 
@@ -52,5 +58,3 @@ Public downloads are architecture-specific binary builds:
 
 - `amd64` for regular Linux desktops and laptops.
 - `arm64` for Cardputer Zero and 64-bit Raspberry Pi OS.
-
-The public `.deb` files do not contain the app's readable Python source files.
