@@ -28,8 +28,8 @@ Or download the package for your machine:
 
 ```bash
 ARCH="$(dpkg --print-architecture)"
-curl -LO "https://raw.githubusercontent.com/rimedag/voidroom_cardputerzero/main/pool/main/v/void-room/void-room_0.1.0-noirsonance1_${ARCH}.deb"
-sudo apt install "./void-room_0.1.0-noirsonance1_${ARCH}.deb"
+curl -LO "https://raw.githubusercontent.com/rimedag/voidroom_cardputerzero/main/pool/main/v/void-room/void-room_0.1.0-noirsonance2_${ARCH}.deb"
+sudo apt install "./void-room_0.1.0-noirsonance2_${ARCH}.deb"
 ```
 
 ## Launch

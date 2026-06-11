@@ -1,13 +1,13 @@
 Package: void-room
-Version: 0.1.0-noirsonance1
+Version: 0.1.0-noirsonance2
 Architecture: amd64
 Maintainer: NoirSonance <noreply@noirsonance.local>
 Section: utils
 Priority: optional
 Depends: libc6 (>= 2.36), zlib1g, fonts-dejavu-core, alsa-utils
 Description: Distraction-free offline writing room for CardputerZero
-Filename: pool/main/v/void-room/void-room_0.1.0-noirsonance1_amd64.deb
-Size: 29856998
-MD5sum: f8428c04c83edf1643c2e857731fa221
-SHA1: 49a71c7c84d5879c0b30b6f6d0d98f2e2896347e
-SHA256: 73bb4a6b042471dc13332b9096e1ca49fa0d2ee1d044223e84abeca288aa092b
+Filename: pool/main/v/void-room/void-room_0.1.0-noirsonance2_amd64.deb
+Size: 29857874
+MD5sum: 10bcaf28ccb477acc62e9ce301caa1f5
+SHA1: 2d7dc63b3da9e173429ce2df7237f893c5905049
+SHA256: c35e39c5b51962a1f6c43aa52bd6bd35801c9d41688b50f95d62930172db5efd
