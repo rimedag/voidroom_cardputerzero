@@ -28,7 +28,7 @@ curl -fL "$url" -o "${tmp_dir}/${asset}"
 echo "Installing Void Room..."
 (
     cd "$tmp_dir"
-    sudo apt install "./${asset}"
+    sudo apt install -y "./${asset}"
 )
 
 echo "Done. Launch with: void-room-desktop, void-room-cardputerzero, or void-room"
